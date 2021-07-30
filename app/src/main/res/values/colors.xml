@@ -11,6 +11,36 @@
     <!-- base dialog -->
     <color name="dialog_base_bg">#fff</color>
     <color name="dialog_base_title">#000</color>
-    <color name="dialog_base_button_text">#7D6CE9</color>
+    <color name="dialog_base_button_text">#FFFFFF</color>
+<!--    <color name="dialog_base_button_text">#FADA7B</color>-->
     <color name="dialog_base_border">#f1f1f1</color>
+
+    <!-- sign in -->
+    <color name="signin_login_box">#6E6E6E</color>
+    <color name="signin_login_hintText">#333333</color>
+    <color name="signin_login_bt">#FADA7B</color>
+    <color name="signin_signup_text">#090909</color>
+    <color name="signin_signup_info_text">#131313</color>
+    <color name="signin_bg">#F4F4F4</color>
+
+    <!-- sign up -->
+    <color name="signup_bg">#EFEFEF</color>
+    <color name="signup_tv">#090909</color>
+    <color name="signup_login_bt">#FADA7B</color>
+
+    <!-- main -->
+    <color name="main_tab_text">#FADA7B</color>
+    <color name="main_tab_indicator">#f2d06c</color>
+    <color name="main_tab_line">#131313</color>
+    <!-- home -->
+    <color name="home_bg">#F4F4F4</color>
+    <color name="home_topbar_layout">#F5FDF19B</color>
+    <color name="home_filter_button">#FFA5AC</color>
+    <color name="home_filter_bg">#CCFFFFFF</color>
+    <color name="home_filter_text">#131313</color>
+    <color name="home_filter_line">#292929</color>
+<!--    <color name="home_filter_button2">#FFABB1</color> -->
+
+    <!-- memo -->
+    <color name="memo_sticker_bg">#CCFFFFFF</color>
 </resources>
