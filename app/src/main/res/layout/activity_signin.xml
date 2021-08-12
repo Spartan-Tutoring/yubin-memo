@@ -76,7 +76,6 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:backgroundTint="@color/signin_login_bt"
         android:text="@string/signin_login"
         android:textSize="23sp"
         android:textStyle="bold"

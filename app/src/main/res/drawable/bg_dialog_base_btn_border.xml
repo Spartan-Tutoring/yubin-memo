@@ -9,7 +9,7 @@
     </item>
     <item android:top="1dp">
         <shape android:shape="rectangle">
-            <solid android:color="@color/dialog_base_bg" />
+            <solid android:color="@color/home_topbar_layout" />
             <corners android:bottomLeftRadius="15dp"
                 android:bottomRightRadius="15dp"/>
         </shape>

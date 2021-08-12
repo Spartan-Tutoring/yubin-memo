@@ -9,7 +9,7 @@ interface UserDao {
     @Query("SELECT * FROM UserTable")
     fun getUsers(): List<User>
 
-    @Query("SELECT idx, id, pw, name FROM UserTable WHERE id = :id AND pw = :pw")
+    @Query("SELECT * FROM UserTable WHERE id = :id AND pw = :pw")
     fun getUser(id: String, pw: String): User?
 
     @Insert
@@ -18,9 +18,17 @@ interface UserDao {
     @Query("DELETE FROM UserTable")
     fun deleteUsers()
 
-    @Query("SELECT idx, id, pw, name FROM UserTable WHERE id = :id")
+    @Query("SELECT * FROM UserTable WHERE id = :id")
     fun getUserById(id: String): User?
 
-    @Query("SELECT idx, id, pw, name FROM UserTable WHERE idx = :idx")
+    @Query("SELECT * FROM UserTable WHERE idx = :idx")
     fun getUserByIdx(idx: Int): User?
+
+    //username 수정
+    @Query("UPDATE UserTable SET name = :name WHERE idx = :idx")
+    fun updateNameByIdx(name: String, idx: Int)
+
+    //usersticker 수정
+    @Query("UPDATE UserTable SET stNum = :sticker WHERE idx = :idx")
+    fun updateStickerByIdx(sticker : Int, idx: Int)
 }

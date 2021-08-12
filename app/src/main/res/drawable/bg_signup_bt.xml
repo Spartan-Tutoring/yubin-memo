@@ -6,9 +6,7 @@
     android:right="1dp"
     android:top="1dp">
     <shape android:shape="rectangle" >
-        <stroke android:color="#F8CD4A"
-            android:width="2dp"/>
-        <solid android:color="@color/signup_login_bt" />
+        <solid android:color="@color/tobbar_bg" />
         <corners android:radius="5dp" />
     </shape>
 </item>

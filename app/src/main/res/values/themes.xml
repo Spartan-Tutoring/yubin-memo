@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.Memo60" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#FADA7B</item>
-        <item name="colorPrimaryVariant">#F5FDF19B</item>
+        <item name="colorPrimary">#FFA5AC</item>
+        <item name="colorPrimaryVariant">#FFACB3</item>
         <item name="colorOnPrimary">#BFBFBC</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
